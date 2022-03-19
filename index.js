@@ -1,3 +1,14 @@
+///////////Multiply all object values by x///////////////////////////
+function myFunction(a,b){
+  var values = Object.fromEntries(
+    Object.entries(a).map(([key,value])=> [ key, value*b])
+  );
+  
+  return values;
+}
+
+myFunction({a:1,b:2,c:3},3)
+
 ///////////////////Sort of array//////////////////////////////////
 function removeDuplicate(arr){
   return arr.filter((newA,index)=>arr.indexOf(newA) === index);
@@ -24,3 +35,4 @@ function myFunction(a,n){
   return newArr;
 
 myFunction([7,2,1,6,3,4,5,8,9,10,11,12,13],5)
+
