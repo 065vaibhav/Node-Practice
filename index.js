@@ -1,15 +1,50 @@
-///////////////////Insert character after every n characters (backwards)/////
-myFunction=(a,b)=>{
-   let result = [];
-   let rest = a;
-   while (rest.length) {
-   	result.push(rest.slice(-3));
-   	rest = rest.slice(0, -3);
-   }
-  console.log(result.reverse().join(b))
-}
+////////////////////repeat string/////////////////////////////////
+// function myfunction(sn,n){
+//   // console.log("s",Math.floor(n/s.length));
+//   var s = sn.split("");
+//   var strSize = s.length;
+//   var a = s.filter(z=> z==='a').length
+//   var repeat = Math.floor(n/strSize)
+//   var left = n -(strSize*repeat)
+//   var repeatLeft = s.filter((a,i)=> a==='a' && i<left).length
+//   console.log((repeat*a) + repeatLeft)
+// }
 
-myFunction('1234567','.')
+// myfunction('baaa',15)
+
+
+//////////////// Print second largest input/////////////////
+// const arr = [101, 101, 1, 24, 5, 15 ,25 , 45, 66, 88, 98, 101, 98, 1];
+
+//  function getSecondHighest(arrCheck){
+//      var first=0,second=0;
+//      for(var i=0;i<arrCheck.length;i++){
+//          if(arrCheck[i] > first){
+//           second = first;
+//           first = arrCheck[i];
+//          }
+//          else if(arrCheck[i]>second && arrCheck[i]<first){
+//              second = arrCheck[i];
+//         } 
+//      }
+//      return second;
+// }
+	 
+//  getSecondHighest(arr)
+
+
+///////////////////Insert character after every n characters (backwards)/////
+// myFunction=(a,b)=>{
+//    let result = [];
+//    let rest = a;
+//    while (rest.length) {
+//    	result.push(rest.slice(-3));
+//    	rest = rest.slice(0, -3);
+//    }
+//   console.log(result.reverse().join(b))
+// }
+
+// myFunction('1234567','.')
 
 ///////////////////increment every character at string/////////////
 // myFunction = (a) =>{
