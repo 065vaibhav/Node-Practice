@@ -1,4 +1,22 @@
-////////////////////repeat string/////////////////////////////////
+///Hash Tables: Ransom Note//////////////////////////////////////////////
+// function checkMagazine(magazine, notes) {  
+//   var falseV = 0;
+  
+//   notes.filter(val=>{
+//     console.log("bfore",magazine);
+//        var index = magazine.indexOf(val);
+//        if (index !== -1) {
+//         magazine.splice(index, 1);
+//      }else falseV++ 
+//     console.log("aftre",magazine);
+//  })
+//  console.log(falseV===0?  'Yes' : 'No')
+// }
+
+
+// checkMagazine([ 'two', 'times', 'three', 'is', 'not', 'four' ] ,[ 'two', 'times', 'three', 'is', 'four' ])
+
+///////////////////repeat string/////////////////////////////////
 // function myfunction(sn,n){
 //   // console.log("s",Math.floor(n/s.length));
 //   var s = sn.split("");
