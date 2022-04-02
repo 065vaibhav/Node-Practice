@@ -1,4 +1,23 @@
-///Hash Tables: Ransom Note//////////////////////////////////////////////
+///////////////Hacker Rank: Minimum Distances/////////////////
+// function minimumDistances(a) {
+//     // Write your code here
+// var arr=[];var pos=[]
+// for(let i=1;i<=a.length;i++){
+//   if(arr.length==0) arr.push(a[i-1])
+//   else if(arr.includes(a[i-1])){
+//     pos.push( (i-1)-arr.indexOf(a[i-1]))
+//     arr.push(a[i-1])
+//   }else arr.push(a[i-1])
+// }
+//   return pos.length>0?pos.sort((a,b)=>a-b)[0]:-1
+
+// }
+
+// minimumDistances([ 7, 1, 3, 4, 1,7]) 
+// minimumDistances([ 1, 2, 3, 4, 10 ]) 
+
+
+///Hacker Rank:Hash Tables: Ransom Note////////////////////////////////////////
 // function checkMagazine(magazine, notes) {  
 //   var falseV = 0;
   
